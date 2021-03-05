@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.photo_card {
+  
+  margin: 3px 3px 3px 3px;
+
+}
+.app{
+  width: 2000px;
+  height:auto;
+  background-color: rgb(199, 189, 189);
+
+}
