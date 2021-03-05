@@ -1,11 +1,10 @@
 
-import Card, {Hello} from "./components/Card";
+import Card from "./components/Card";
 
 function App() {
   return (
     <div className="app container">
-    {/* <Hello/> */}
-    <Card/>
+    <Card pageno={1}/>
     </div>
   );
 }

@@ -3,9 +3,9 @@ import Searchbar from "./Searchbar";
 import Gallary from "./Gallary";
 
 class Card extends Component{
-    constructor(props){
+    constructor(){
         console.log("constructor called")
-        super(props)
+        super()
         this.state = {
             items: [],
             pageno: 1,
@@ -14,6 +14,7 @@ class Card extends Component{
             error: null
         }
     }
+
     
     handleClick(text){
       console.log("handle click")  
@@ -81,16 +82,5 @@ class Card extends Component{
     
 }
 
-class Hello extends Component {
-    render() {
-      return (
-        <div>
-          Hello World !!
-        </div>
-      );
-    }
-}
-
 export default Card;
-export {Hello};
 
